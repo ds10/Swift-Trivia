@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var QuestionLabel: UITextView!
+    @IBOutlet var Button1: UIView!
+    @IBOutlet weak var Button2: UIButton!
+    @IBOutlet weak var Button3: UIButton!
+    @IBOutlet weak var Button4: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +27,10 @@ class ViewController: UIViewController {
     }
 
 
+    
+    
+    
+    
+    
 }
 
