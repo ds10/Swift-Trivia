@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639B35E41C8446A0009A6014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B35E31C8446A0009A6014 /* AppDelegate.swift */; };
+		639B35E61C8446A0009A6014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B35E51C8446A0009A6014 /* ViewController.swift */; };
+		639B35E91C8446A0009A6014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639B35E71C8446A0009A6014 /* Main.storyboard */; };
+		639B35EB1C8446A0009A6014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639B35EA1C8446A0009A6014 /* Assets.xcassets */; };
+		639B35EE1C8446A0009A6014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639B35EC1C8446A0009A6014 /* LaunchScreen.storyboard */; };
+		639B35F91C8446A0009A6014 /* RSTrivaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B35F81C8446A0009A6014 /* RSTrivaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		639B35F51C8446A0009A6014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639B35D81C8446A0009A6014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639B35DF1C8446A0009A6014;
+			remoteInfo = RSTriva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		639B35E01C8446A0009A6014 /* RSTriva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSTriva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639B35E31C8446A0009A6014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		639B35E51C8446A0009A6014 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		639B35E81C8446A0009A6014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639B35EA1C8446A0009A6014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639B35ED1C8446A0009A6014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639B35EF1C8446A0009A6014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639B35F41C8446A0009A6014 /* RSTrivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSTrivaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639B35F81C8446A0009A6014 /* RSTrivaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTrivaTests.swift; sourceTree = "<group>"; };
+		639B35FA1C8446A0009A6014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639B35DD1C8446A0009A6014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B35F11C8446A0009A6014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		639B35D71C8446A0009A6014 = {
+			isa = PBXGroup;
+			children = (
+				639B35E21C8446A0009A6014 /* RSTriva */,
+				639B35F71C8446A0009A6014 /* RSTrivaTests */,
+				639B35E11C8446A0009A6014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639B35E11C8446A0009A6014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639B35E01C8446A0009A6014 /* RSTriva.app */,
+				639B35F41C8446A0009A6014 /* RSTrivaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639B35E21C8446A0009A6014 /* RSTriva */ = {
+			isa = PBXGroup;
+			children = (
+				639B35E31C8446A0009A6014 /* AppDelegate.swift */,
+				639B35E51C8446A0009A6014 /* ViewController.swift */,
+				639B35E71C8446A0009A6014 /* Main.storyboard */,
+				639B35EA1C8446A0009A6014 /* Assets.xcassets */,
+				639B35EC1C8446A0009A6014 /* LaunchScreen.storyboard */,
+				639B35EF1C8446A0009A6014 /* Info.plist */,
+			);
+			path = RSTriva;
+			sourceTree = "<group>";
+		};
+		639B35F71C8446A0009A6014 /* RSTrivaTests */ = {
+			isa = PBXGroup;
+			children = (
+				639B35F81C8446A0009A6014 /* RSTrivaTests.swift */,
+				639B35FA1C8446A0009A6014 /* Info.plist */,
+			);
+			path = RSTrivaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639B35DF1C8446A0009A6014 /* RSTriva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639B35FD1C8446A0009A6014 /* Build configuration list for PBXNativeTarget "RSTriva" */;
+			buildPhases = (
+				639B35DC1C8446A0009A6014 /* Sources */,
+				639B35DD1C8446A0009A6014 /* Frameworks */,
+				639B35DE1C8446A0009A6014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSTriva;
+			productName = RSTriva;
+			productReference = 639B35E01C8446A0009A6014 /* RSTriva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639B35F31C8446A0009A6014 /* RSTrivaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639B36001C8446A0009A6014 /* Build configuration list for PBXNativeTarget "RSTrivaTests" */;
+			buildPhases = (
+				639B35F01C8446A0009A6014 /* Sources */,
+				639B35F11C8446A0009A6014 /* Frameworks */,
+				639B35F21C8446A0009A6014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639B35F61C8446A0009A6014 /* PBXTargetDependency */,
+			);
+			name = RSTrivaTests;
+			productName = RSTrivaTests;
+			productReference = 639B35F41C8446A0009A6014 /* RSTrivaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639B35D81C8446A0009A6014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "David Sherlock";
+				TargetAttributes = {
+					639B35DF1C8446A0009A6014 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					639B35F31C8446A0009A6014 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 639B35DF1C8446A0009A6014;
+					};
+				};
+			};
+			buildConfigurationList = 639B35DB1C8446A0009A6014 /* Build configuration list for PBXProject "RSTriva" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639B35D71C8446A0009A6014;
+			productRefGroup = 639B35E11C8446A0009A6014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639B35DF1C8446A0009A6014 /* RSTriva */,
+				639B35F31C8446A0009A6014 /* RSTrivaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639B35DE1C8446A0009A6014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B35EE1C8446A0009A6014 /* LaunchScreen.storyboard in Resources */,
+				639B35EB1C8446A0009A6014 /* Assets.xcassets in Resources */,
+				639B35E91C8446A0009A6014 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B35F21C8446A0009A6014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639B35DC1C8446A0009A6014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B35E61C8446A0009A6014 /* ViewController.swift in Sources */,
+				639B35E41C8446A0009A6014 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B35F01C8446A0009A6014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B35F91C8446A0009A6014 /* RSTrivaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		639B35F61C8446A0009A6014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639B35DF1C8446A0009A6014 /* RSTriva */;
+			targetProxy = 639B35F51C8446A0009A6014 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		639B35E71C8446A0009A6014 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639B35E81C8446A0009A6014 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639B35EC1C8446A0009A6014 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639B35ED1C8446A0009A6014 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639B35FB1C8446A0009A6014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639B35FC1C8446A0009A6014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639B35FE1C8446A0009A6014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSTriva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.revisiongames.RSTriva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		639B35FF1C8446A0009A6014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSTriva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.revisiongames.RSTriva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		639B36011C8446A0009A6014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSTrivaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.revisiongames.RSTrivaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSTriva.app/RSTriva";
+			};
+			name = Debug;
+		};
+		639B36021C8446A0009A6014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSTrivaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.revisiongames.RSTrivaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSTriva.app/RSTriva";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639B35DB1C8446A0009A6014 /* Build configuration list for PBXProject "RSTriva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639B35FB1C8446A0009A6014 /* Debug */,
+				639B35FC1C8446A0009A6014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639B35FD1C8446A0009A6014 /* Build configuration list for PBXNativeTarget "RSTriva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639B35FE1C8446A0009A6014 /* Debug */,
+				639B35FF1C8446A0009A6014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		639B36001C8446A0009A6014 /* Build configuration list for PBXNativeTarget "RSTrivaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639B36011C8446A0009A6014 /* Debug */,
+				639B36021C8446A0009A6014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639B35D81C8446A0009A6014 /* Project object */;
+}
