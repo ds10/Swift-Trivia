@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0D671D4D843AAA97B1314C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB233C2903DE1777D69C1B3 /* Pods.framework */; };
 		639B35E41C8446A0009A6014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B35E31C8446A0009A6014 /* AppDelegate.swift */; };
 		639B35E61C8446A0009A6014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B35E51C8446A0009A6014 /* ViewController.swift */; };
 		639B35E91C8446A0009A6014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639B35E71C8446A0009A6014 /* Main.storyboard */; };
@@ -36,6 +37,9 @@
 		639B35F41C8446A0009A6014 /* RSTrivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSTrivaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		639B35F81C8446A0009A6014 /* RSTrivaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTrivaTests.swift; sourceTree = "<group>"; };
 		639B35FA1C8446A0009A6014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB233C2903DE1777D69C1B3 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37ED0B9FEAE64E144B44805 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EFD7E37C21F46428EA315D5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0D671D4D843AAA97B1314C /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EFD71EB4134EBAB9252A45A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7E37C21F46428EA315D5F /* Pods.debug.xcconfig */,
+				A37ED0B9FEAE64E144B44805 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		639B35D71C8446A0009A6014 = {
 			isa = PBXGroup;
 			children = (
 				639B35E21C8446A0009A6014 /* RSTriva */,
 				639B35F71C8446A0009A6014 /* RSTrivaTests */,
 				639B35E11C8446A0009A6014 /* Products */,
+				5EFD71EB4134EBAB9252A45A /* Pods */,
+				BD51AD9476CFEF7AF3C9A438 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +112,14 @@
 			path = RSTrivaTests;
 			sourceTree = "<group>";
 		};
+		BD51AD9476CFEF7AF3C9A438 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FB233C2903DE1777D69C1B3 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 639B35FD1C8446A0009A6014 /* Build configuration list for PBXNativeTarget "RSTriva" */;
 			buildPhases = (
+				BFDDC4B17AC47CC26692750A /* Check Pods Manifest.lock */,
 				639B35DC1C8446A0009A6014 /* Sources */,
 				639B35DD1C8446A0009A6014 /* Frameworks */,
 				639B35DE1C8446A0009A6014 /* Resources */,
+				9237E9A927EF8839405802AF /* Embed Pods Frameworks */,
+				0DE6B1FBC56E0F6FD6B99623 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +218,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE6B1FBC56E0F6FD6B99623 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9237E9A927EF8839405802AF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDDC4B17AC47CC26692750A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		639B35DC1C8446A0009A6014 /* Sources */ = {
@@ -325,6 +400,7 @@
 		};
 		639B35FE1C8446A0009A6014 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD7E37C21F46428EA315D5F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RSTriva/Info.plist;
@@ -336,6 +412,7 @@
 		};
 		639B35FF1C8446A0009A6014 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37ED0B9FEAE64E144B44805 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RSTriva/Info.plist;
@@ -388,6 +465,7 @@
 				639B35FF1C8446A0009A6014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639B36001C8446A0009A6014 /* Build configuration list for PBXNativeTarget "RSTrivaTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +474,7 @@
 				639B36021C8446A0009A6014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
